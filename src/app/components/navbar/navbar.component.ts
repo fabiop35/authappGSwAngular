@@ -9,9 +9,11 @@ export class NavbarComponent implements OnInit {
  constructor( public auth: AuthService ) {}
  ngOnInit() {
  }
+
  login() {
    this.auth.login();
  }
+ 
  logout() {
    this.auth.logout();
  }

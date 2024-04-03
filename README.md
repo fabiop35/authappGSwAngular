@@ -28,3 +28,4 @@ ng g c components/shared/loading --style none
 npm install --save auth0-js
 npm install --save @types/auth0-js
 
+ng g guard services/auth
